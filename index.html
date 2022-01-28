@@ -53,7 +53,7 @@
                 }
                 function displayWorldTime(){
                     var dt = new Date();
-                    document.getElementById("local").innerHTML = "Local time : " + dt.toLocaleDateString();
+                    document.getElementById("local").innerHTML = "Local time : " + dt.toLocaleTimeString();
                     var output = `<table id="cities">`;
                     output +=`
                                <tr>
